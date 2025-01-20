@@ -6,9 +6,11 @@
 class Dog : public Animal
 {
 public:
-    Dog() = default;
+    Dog();
     Dog(string name, uint16_t age);
 
-    string bark();
+    string make_sound() override;
+
+    ~Dog() override;
 };
 #endif // DOG_H

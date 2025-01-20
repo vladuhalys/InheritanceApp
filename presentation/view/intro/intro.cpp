@@ -4,15 +4,12 @@
 
 void View::intro()
 {
-    Dog * dog = new Dog();
-    Cat * cat = new Cat();
-    Bird * bird = new Bird();
-    
-    println(dog->bark());
-    println(cat->meow());
-    println(bird->chirp());
-    
-    delete dog;
-    delete cat;
-    delete bird;
+    size_t size = 3;
+    Animal ** animals = new Animal*[size];
+    animals[0] = new Dog("Buddy", 5);
+    animals[1] = new Cat("Whiskers", 3);
+    animals[2] = new Bird("Tweety", 1);
+
+    AnimalUseCase::make_sound(animals, size);
+    AnimalUseCase::delete_animals(animals, size);
 }

@@ -4,6 +4,6 @@
 #include "core/logger/logger.h"
 
 //Setting the configuration property
-bool Logger::is_print_logs = false;
+bool Logger::is_print_logs = true;
 
 #endif // CONFIG_H

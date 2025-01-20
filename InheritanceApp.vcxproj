@@ -171,6 +171,9 @@
     <ClInclude Include="domain\entities\bird\bird.h" />
     <ClInclude Include="domain\entities\cat\cat.h" />
     <ClInclude Include="domain\entities\dog\dog.h" />
+    <ClInclude Include="domain\entities\entities.h" />
+    <ClInclude Include="domain\use_case\animal_use_case.h" />
+    <ClInclude Include="domain\use_case\use_case.h" />
     <ClInclude Include="library.h" />
     <ClInclude Include="presentation\view\view.h" />
     <ClInclude Include="presentation\presentation.h" />

@@ -6,10 +6,12 @@
 class Bird : public Animal
 {
 public:
-    Bird() = default;
+    Bird();
     Bird(string name, uint16_t age);
 
-    string chirp();
+    string make_sound() override;
+
+    ~Bird() override;
 };
 
 #endif // BIRD_H

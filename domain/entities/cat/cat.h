@@ -6,10 +6,12 @@
 class Cat : public Animal
 {
 public:
-    Cat() = default;
+    Cat();
     Cat(string name, uint16_t age);
 
-    string meow();
+    string make_sound() override;
+
+    ~Cat() override;
 };
 
 #endif // CAT_H
