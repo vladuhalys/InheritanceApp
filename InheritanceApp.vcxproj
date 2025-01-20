@@ -156,14 +156,24 @@
   <ItemGroup>
     <ClCompile Include="core\logger\logger.cpp" />
     <ClCompile Include="domain\entities\animal\animal.cpp" />
+    <ClCompile Include="domain\entities\bird\bird.cpp" />
+    <ClCompile Include="domain\entities\cat\cat.cpp" />
+    <ClCompile Include="domain\entities\dog\dog.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="presentation\view\intro\intro.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="config.h" />
     <ClInclude Include="core\core.h" />
     <ClInclude Include="core\logger\logger.h" />
     <ClInclude Include="domain\domain.h" />
     <ClInclude Include="domain\entities\animal\animal.h" />
+    <ClInclude Include="domain\entities\bird\bird.h" />
+    <ClInclude Include="domain\entities\cat\cat.h" />
+    <ClInclude Include="domain\entities\dog\dog.h" />
+    <ClInclude Include="domain\entities\entities.h" />
+    <ClInclude Include="domain\use_case\animal_use_case.h" />
+    <ClInclude Include="domain\use_case\use_case.h" />
     <ClInclude Include="library.h" />
     <ClInclude Include="presentation\view\view.h" />
     <ClInclude Include="presentation\presentation.h" />

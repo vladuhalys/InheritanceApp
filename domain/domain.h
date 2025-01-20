@@ -1,6 +1,8 @@
 ﻿#ifndef DOMAIN_H
 #define DOMAIN_H
 
-#include "entities/animal/animal.h"
+// Include all domain entities.
+#include "entities/entities.h"
+#include "use_case/use_case.h"
 
 #endif // DOMAIN_H
