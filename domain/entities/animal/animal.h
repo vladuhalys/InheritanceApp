@@ -8,9 +8,9 @@
  */
 enum AnimalType
 {
-    Dog, ///< Represents a dog.
-    Cat, ///< Represents a cat.
-    Bird ///< Represents a bird.
+    DogType, ///< Represents a dog.
+    CatType, ///< Represents a cat.
+    BirdType ///< Represents a bird.
 };
 
 /**
